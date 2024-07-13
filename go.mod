@@ -1,15 +1,19 @@
-module github.com/simplysabir/mpc-tss-wallet
+module github.com/rahulkathuriaaa/GG20-MultiSig-Wallet
 
 go 1.22.4
 
 require (
+	github.com/bnb-chain/tss-lib v1.5.0
+	github.com/ethereum/go-ethereum v1.14.7
+	github.com/rahulkathuriaaa/GG20-MultiSig-Wallet v0.0.0-20240712101148-7437a7f701e0
+)
+
+require (
 	github.com/agl/ed25519 v0.0.0-20170116200512-5312a6153412 // indirect
-	github.com/bnb-chain/tss-lib v1.5.0 // indirect
 	github.com/btcsuite/btcd v0.0.0-20190629003639-c26ffa870fd8 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.2.0 // indirect
 	github.com/decred/dcrd/dcrec/edwards/v2 v2.0.0 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
-	github.com/ethereum/go-ethereum v1.14.7 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
 	github.com/hashicorp/go-multierror v1.0.0 // indirect
